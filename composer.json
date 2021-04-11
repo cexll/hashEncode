@@ -1,0 +1,36 @@
+{
+    "name": "cexll/hash-encode",
+    "description": "hash response body",
+    "keywords": ["PHP", "crypt", "rsa", "aes"],
+    "type": "project",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/cexll/hash-encode",
+    "authors": [
+        {
+            "name": "cexll",
+            "email": "evanxian9@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-openssl": "*",
+        "seffeng/cryptlib": "^0.1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+        ,
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cexll\\Encode\\": "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Cexll\\Encode\\Tests\\" : "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+    
+}
